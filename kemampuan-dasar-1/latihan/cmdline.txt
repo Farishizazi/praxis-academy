@@ -1,0 +1,182 @@
+1.
+PS C:\Users\Hijaz> label
+Volume in drive C: has no label
+Volume Serial Number is AAFC-ABF6
+Volume label (32 characters, ENTER for none)?
+
+2.
+PS C:\Users\Hijaz> cd
+PS D:\praxis-academy>
+
+3.
+PS C:\Users\Hijaz> echo
+cmdlet Write-Output at command pipeline position 1
+Supply values for the following parameters:
+
+4.
+PS C:\Users\Hijaz> ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::8d8d:24cc:c5aa:2223%8
+   IPv4 Address. . . . . . . . . . . : 192.168.1.98
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%8
+                                       192.168.1.1
+
+5.
+PS C:\Users\Hijaz> ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+6.
+PS C:\Users\Hijaz> copy
+
+cmdlet Copy-Item at command pipeline position 1
+Supply values for the following parameters:
+Path[0]: -
+
+7.
+PS C:\Users\Hijaz> date
+
+16 August, 2022 15:13:42 PM
+
+8.
+PS C:\Users\Hijaz> hostname
+Rigel
+
+9.
+PS C:\Users\Hijaz> choice
+[Y,N]?N
+
+10.
+PS C:\Users\Hijaz> help
+
+TOPIC
+    Windows PowerShell Help System
+
+SHORT DESCRIPTION
+    Displays help about Windows PowerShell cmdlets and concepts.
+
+LONG DESCRIPTION
+    Windows PowerShell Help describes Windows PowerShell cmdlets,
+    functions, scripts, and modules, and explains concepts, including
+    the elements of the Windows PowerShell language.
+
+    Windows PowerShell does not include help files, but you can read the
+    help topics online, or use the Update-Help cmdlet to download help files
+    to your computer and then use the Get-Help cmdlet to display the help
+    topics at the command line.
+
+    You can also use the Update-Help cmdlet to download updated help files
+    as they are released so that your local help content is never obsolete.
+
+    Without help files, Get-Help displays auto-generated help for cmdlets,
+    functions, and scripts.
+
+
+  ONLINE HELP
+    You can find help for Windows PowerShell online in the TechNet Library
+    beginning at http://go.microsoft.com/fwlink/?LinkID=108518.
+
+    To open online help for any cmdlet or function, type:
+
+        Get-Help <cmdlet-name> -Online
+
+  UPDATE-HELP
+    To download and install help files on your computer:
+
+       1. Start Windows PowerShell with the "Run as administrator" option.
+       2. Type:
+
+          Update-Help
+
+    After the help files are installed, you can use the Get-Help cmdlet to
+    display the help topics. You can also use the Update-Help cmdlet to
+    download updated help files so that your local help files are always
+    up-to-date.
+
+    For more information about the Update-Help cmdlet, type:
+
+       Get-Help Update-Help -Online
+
+-- More  --
+
+11.
+PS C:\Users\Hijaz> pause
+Press Enter to continue...:
+
+12.
+PS C:\Users\Hijaz> start
+cmdlet Start-Process at command pipeline position 1
+Supply values for the following parameters:
+FilePath: 1
+
+13.
+PS C:\Users\Hijaz> klist
+
+Current LogonId is 0:0x91888
+
+Cached Tickets: (0)
+
+14.
+PS C:\Users\Hijaz> cls
+
+15.
+PS C:\Users\Hijaz> cmd
+Microsoft Windows [Version 10.0.19044.1889]
+(c) Microsoft Corporation. All rights reserved.
+
+16.
+PS C:\Users\Hijaz> print
+No file to print
+
+17.
+PS C:\Users\Hijaz> net print
+The syntax of this command is:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+18.
+PS C:\Users\Hijaz> pathping
+
+Usage: pathping [-g host-list] [-h maximum_hops] [-i address] [-n]
+                [-p period] [-q num_queries] [-w timeout]
+                [-4] [-6] target_name
+
+19.
+PS C:\Users\Hijaz> chcp
+Active code page: 437
+
+20.
+PS C:\Users\Hijaz> convert
+Must specify a file system
+
+21.
+PS C:\Users\Hijaz> recover
+RECOVER [drive:][path]filename
