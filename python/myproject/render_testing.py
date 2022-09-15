@@ -2,10 +2,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/")
-def home():
-    return render_template("base.html", title='Jinja and Flask')
-
 max_score = 100
 test_name = "Python Challenge"
 students = [
@@ -16,7 +12,7 @@ students = [
     {"name": "Sirius", "score": 75},
 ]
 
-@app.route("/results")
+@app.route("/")
 def results():
     context = {
         "title": "Results",
@@ -24,7 +20,7 @@ def results():
         "test_name": test_name,
         "max_score": max_score,
     }
-    return render_template("results.html", **context)
+    return render_template("testing.html", **context)
 
 if __name__ == "__main__":
     app.run(debug=True)
