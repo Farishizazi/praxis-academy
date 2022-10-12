@@ -1,0 +1,6 @@
+Flask == 2.2.2
+python-dotenv == 0.21.0
+json-checker == 2.0.0
+mongoengine == 0.24.2
+Flask-Cors == 3.0.10 #biar jalan di semua port
+gevent == 21.12.0

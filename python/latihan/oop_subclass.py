@@ -30,3 +30,13 @@ class Student(SchoolMember):
     def tell(self):
         SchoolMember.tell(self)
         print('marks: "{}"'.format(self.marks))
+t = Teacher('Mrs. Shelly', 25, 3000000)
+s = Student('David', 21, 75)
+
+# prints a blank line
+print()
+
+members = [t, s]
+for member in members:
+    # works for both Teachers and Students
+    member.tell()
