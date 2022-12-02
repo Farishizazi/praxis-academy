@@ -13,7 +13,7 @@ def Create():
             Message="error",
             Data=str(err)
         )
-    
+
     collTable = models.Tables(title=bodyJson["title"], description=bodyJson["description"])
     collTable.save()
 
